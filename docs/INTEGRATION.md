@@ -1,5 +1,10 @@
 # Corrected application integration
 
+This page is a map of the implementation. If you only need to run the
+application, use [`../README.md`](../README.md). If you need the equations,
+use [`FORMULATION.md`](FORMULATION.md); if you need the viability experiment,
+use [`BREAK_EVEN.md`](BREAK_EVEN.md).
+
 `backend.app` and the built React app share one authoritative engine. Task and
 control progression happen on the backend, never through a scripted UI timeline.
 

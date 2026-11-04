@@ -1,5 +1,18 @@
 # Model and algorithm
 
+## Plain-language summary
+
+The program models a small satellite swarm that observes a target, processes the
+result on the observing satellite, and sends the finished product to the ground.
+It checks each assignment against the current health, resources, target access,
+and future contact route. When a node or link fails, unfinished work is
+reconsidered while completed data stays with its recorded holder.
+
+The equations below explain the implementation choices. They are not a claim
+that the simulator is flight software, a calibrated hardware model, or a proof
+that a particular satellite count always succeeds. For the separate operational
+viability experiment, see [`BREAK_EVEN.md`](BREAK_EVEN.md).
+
 This is a working local simulator, not flight software. It integrates resource admission, synthetic sensing, fault isolation and delivered-data accounting. The optimization agents and their messages are emulated inside one Python process. The requested package modules are independent of the dashboard.
 
 ## 1. Mission

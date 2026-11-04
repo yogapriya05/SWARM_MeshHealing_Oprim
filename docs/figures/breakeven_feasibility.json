@@ -1,0 +1,1004 @@
+{
+  "definition": {
+    "peer_communication": "The induced active radio graph is connected.",
+    "complete_task_delivery": "At least one survivor passes the current host, resource, visibility, thermal, energy, and predicted ground-route checks.",
+    "geometry": "Frozen at simulator time zero; no recovery, motion, or rescheduling is simulated.",
+    "exact": "All survivor subsets are evaluated for the 12-node case.",
+    "sampled": "The 40-node case uses seeded uniform survivor masks per count."
+  },
+  "seed": 7,
+  "task": {
+    "observation_window_s": [
+      1.0,
+      62.0
+    ],
+    "delivery_deadline_s": 120.0,
+    "output_data_mb": 10.0
+  },
+  "cases": {
+    "12": {
+      "nodes": 12,
+      "exact": true,
+      "counts": [
+        {
+          "survivor_count": 0,
+          "trials": 1,
+          "peer_best_case": 0,
+          "peer_probability": 0.0,
+          "peer_worst_case": 0,
+          "delivery_best_case": 0,
+          "delivery_probability": 0.0,
+          "delivery_worst_case": 0,
+          "peer_ci95": [
+            0.0,
+            0.7934567085261071
+          ],
+          "delivery_ci95": [
+            0.0,
+            0.7934567085261071
+          ]
+        },
+        {
+          "survivor_count": 1,
+          "trials": 12,
+          "peer_best_case": 0,
+          "peer_probability": 0.0,
+          "peer_worst_case": 0,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.0,
+            0.2425007574992425
+          ],
+          "delivery_ci95": [
+            0.7574992425007574,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 2,
+          "trials": 66,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9449955327483907,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9449955327483907,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 3,
+          "trials": 220,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9828378639180564,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9828378639180564,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 4,
+          "trials": 495,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9922989582264191,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9922989582264191,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 5,
+          "trials": 792,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9951729087798377,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9951729087798377,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 6,
+          "trials": 924,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9958596381106429,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9958596381106429,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 7,
+          "trials": 792,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9951729087798377,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9951729087798377,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 8,
+          "trials": 495,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9922989582264191,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9922989582264191,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 9,
+          "trials": 220,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9828378639180564,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9828378639180564,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 10,
+          "trials": 66,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.9449955327483907,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.9449955327483907,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 11,
+          "trials": 12,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.7574992425007574,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.7574992425007574,
+            1.0
+          ]
+        },
+        {
+          "survivor_count": 12,
+          "trials": 1,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": 1,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": 1,
+          "peer_ci95": [
+            0.20654329147389294,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.20654329147389294,
+            1.0
+          ]
+        }
+      ]
+    },
+    "40": {
+      "nodes": 40,
+      "exact": false,
+      "counts": [
+        {
+          "survivor_count": 0,
+          "trials": 1,
+          "peer_best_case": 0,
+          "peer_probability": 0.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 0,
+          "delivery_probability": 0.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.0,
+            0.7934567085261071
+          ],
+          "delivery_ci95": [
+            0.0,
+            0.7934567085261071
+          ]
+        },
+        {
+          "survivor_count": 1,
+          "trials": 100,
+          "peer_best_case": 0,
+          "peer_probability": 0.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.0,
+            0.03699480747600191
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 2,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 3,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 4,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 5,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 6,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 7,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 8,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 9,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 10,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 11,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 12,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 13,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 14,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 15,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 16,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 17,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 18,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 19,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 20,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 21,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 22,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 23,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 24,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 25,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 26,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 27,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 28,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 29,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 30,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 31,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 32,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 33,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 34,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 35,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 36,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 37,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 38,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 39,
+          "trials": 100,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "delivery_ci95": [
+            0.9630051925239981,
+            0.9999999999999999
+          ]
+        },
+        {
+          "survivor_count": 40,
+          "trials": 1,
+          "peer_best_case": 1,
+          "peer_probability": 1.0,
+          "peer_worst_case": null,
+          "delivery_best_case": 1,
+          "delivery_probability": 1.0,
+          "delivery_worst_case": null,
+          "peer_ci95": [
+            0.20654329147389294,
+            1.0
+          ],
+          "delivery_ci95": [
+            0.20654329147389294,
+            1.0
+          ]
+        }
+      ]
+    }
+  }
+}
