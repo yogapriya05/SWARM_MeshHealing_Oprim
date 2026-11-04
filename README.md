@@ -395,7 +395,8 @@ python3 -m pytest -q tests backend/lab_tests
 python run.py --headless --seconds 600 --space-effects --export snapshot.json
 ```
 
-For frontend source development:
+The launch scripts automatically install and build the frontend when
+`frontend/dist/index.html` is missing. For frontend source development:
 
 ```bash
 cd frontend
@@ -406,7 +407,8 @@ npm run build
 ```
 
 The Python server serves `frontend/dist`; runtime assets, textures and fonts are
-local. Vite proxies API/WebSocket calls during development.
+local. Vite proxies API/WebSocket calls during development. Node.js 18+ is
+required when the production frontend build is missing.
 
 `tests/browser_smoke.cjs` runs a real browser against a server it starts. Install
 Playwright in the frontend for that optional test. Existing browser executables
