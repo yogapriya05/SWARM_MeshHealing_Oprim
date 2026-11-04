@@ -27,6 +27,12 @@ Or equivalently run:
 Open **http://127.0.0.1:8000**. `start.bat` and `start.sh` are convenience
 launchers after dependencies are installed in your active environment.
 
+For the operational viability figure, see
+[`docs/BREAK_EVEN.md`](docs/BREAK_EVEN.md) and run
+`python generate_breakeven_figure.py`. The figure separates connected peer
+communication from complete request-to-ground feasibility; it is not an
+economic breakeven claim.
+
 ```bash
 python3 run.py --swarms 2 --satellites 20 --seed 7 --space-effects
 python3 run.py --quiet-http
