@@ -91,7 +91,7 @@ export default function MeshView({state,selected,onSelect}:{state:SimulationStat
    const positions=new Map<string,THREE.Vector3>();const center=new THREE.Vector3();
    for(const sat of s.satellites){const a=hs.a.satellites.find(x=>x.id===sat.id)??sat,b=hs.b.satellites.find(x=>x.id===sat.id)??sat;
     const p=hs.b.time_s>hs.a.time_s?hermite(a.position,a.velocity,b.position,b.velocity,alpha,hs.b.time_s-hs.a.time_s):vector(sat.position);
-    const extra=Math.max(0,simTime-b.time_s);if(extra>0){p.addScaledVector(vector(b.velocity),extra);const radius=vector(b.position).length();p.addScaledVector(vector(b.position),-.5*398600.4418*extra*extra/(radius*radius*radius));}positions.set(sat.id,p);center.add(p);dots.get(sat.id)!.position.copy(p.clone().divideScalar(R));
+    const extra=Math.max(0,simTime-newest.time_s);if(extra>0){p.addScaledVector(vector(b.velocity),extra);const radius=vector(b.position).length();p.addScaledVector(vector(b.position),-.5*398600.4418*extra*extra/(radius*radius*radius));}positions.set(sat.id,p);center.add(p);dots.get(sat.id)!.position.copy(p.clone().divideScalar(R));
     const body=bodies.get(sat.id)!;body.quaternion.slerpQuaternions(attitude(a.body_axes_eci),attitude(b.body_axes_eci),alpha);
     (body.children[0] as THREE.Mesh).material instanceof THREE.MeshPhongMaterial&&((body.children[0] as THREE.Mesh).material as THREE.MeshPhongMaterial).color.set(sat.health==='isolated'?0xd87183:sat.health==='degraded'?0xdca65b:0xcbd4dd);
     body.getObjectByName('lock')!.visible=!history&&sat.owner_task_ids.length>0;body.getObjectByName('leader')!.visible=sat.id===(history?.coordinator?.node_id??s.coordinator?.node_id);

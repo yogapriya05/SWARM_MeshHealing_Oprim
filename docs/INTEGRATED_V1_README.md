@@ -379,7 +379,8 @@ cd frontend
 npm run build
 ```
 
-The Python server serves `frontend/dist`. No CDN is needed at runtime. The
+The launch scripts automatically build `frontend/dist` when its production
+index is missing. The Python server serves that directory. No CDN is needed at runtime. The
 frontend uses React, TypeScript and Three.js; the Earth texture is generated
 locally. All 3D resources are disposed on a scene/configuration change.
 
